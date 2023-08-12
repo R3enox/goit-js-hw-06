@@ -4,7 +4,7 @@ const submitFun = (event) => {
     event.preventDefault();
     const { email, password } = event.currentTarget.elements;
     if (email.value === '' || password.value === '') {
-        alert(`All fields must be filled`)
+        return alert(`All fields must be filled`)
     }
     const info = {
         email: email.value,
