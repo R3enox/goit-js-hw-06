@@ -14,3 +14,4 @@ function getRandomHexColor() {
 
 button.addEventListener('click', getRandomHexColor)
 
+body.insertAdjacentHTML('')
